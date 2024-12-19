@@ -8,9 +8,8 @@
     </parent>
 
     <artifactId>auth-service</artifactId>
-
     <name>auth-service</name>
-    <url>https://maven.apache.org</url>
+
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

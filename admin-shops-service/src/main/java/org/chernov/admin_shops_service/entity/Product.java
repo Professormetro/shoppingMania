@@ -7,8 +7,7 @@ import lombok.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-@Entity
-@Table(name = "products")
+
 @Getter
 @Setter
 @Builder
@@ -16,13 +15,11 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 public class Product {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "shop_id")
     private Shop shop;
+
+    private Long article;
 
     private String name;
 
@@ -31,8 +28,6 @@ public class Product {
     private String category;
 
     private int rating;
-
-    private Review review;
 
     private BigDecimal price;
 

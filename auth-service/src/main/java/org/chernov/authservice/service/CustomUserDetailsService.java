@@ -2,6 +2,7 @@ package org.chernov.authservice.service;
 
 import lombok.RequiredArgsConstructor;
 import org.chernov.authservice.entity.AppUser;
+import org.chernov.authservice.entity.Role;
 import org.chernov.authservice.repository.UserRepository;
 
 import org.springframework.security.core.userdetails.User;
@@ -23,11 +24,11 @@ public class CustomUserDetailsService implements UserDetailsService {
         AppUser appUser = userRepository.findByEmail(email);
 
         if (appUser == null) {
-            throw new UsernameNotFoundException("Пользователь не найден: " + email);
+            throw new UsernameNotFoundException("User with this email was not found: " + email);
         }
         return User.withUsername(appUser.getEmail())
                 .password(appUser.getPassword())
-                .roles(appUser.getRole())
+//                .roles(String.valueOf(Role.BUYER))
                 .build();
     }
 }

@@ -4,13 +4,15 @@ package org.chernov.admin_shops_service.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Entity
-@Table(name = "shops")
+import java.time.LocalDateTime;
+
 @Getter
 @Setter
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@Entity
+@Table(name = "shops")
 public class Shop {
 
     @Id
@@ -37,6 +39,10 @@ public class Shop {
     @Column(name = "products_in_stock")
     private Long productsInStock;
 
+    @Column(name = "schema_name")
     private String schemaName;
+
+    @Column(name = "created_at")
+    private LocalDateTime createdAt;
 
 }

@@ -13,9 +13,8 @@ import lombok.Setter;
 public class RegisterDto{
 
     @NotEmpty(message = "First name cannot be empty")
-    private String firstName;
-    @NotEmpty(message = "Last name cannot be empty")
-    private String lastName;
+    private String username;
+
     @NotEmpty(message = "Phone cannot be empty")
     private String phone;
 

@@ -27,11 +27,8 @@ public class AppUser {
     @Column(name = "user_id")
     private Long id;
 
-    @Column(name = "first_name")
-    private String firstName;
-
-    @Column(name = "last_name")
-    private String lastName;
+    @Column(name = "username")
+    private String username;
 
     @Column(name = "email", unique = true, nullable = false)
     private String email;
@@ -42,8 +39,9 @@ public class AppUser {
     @Column(name = "password")
     private String password;
 
+    @Enumerated(EnumType.STRING)
     @Column(name = "role")
-    private String role;
+    private Role role;
 
     @Column(name = "created_at")
     private LocalDateTime createdAt;
