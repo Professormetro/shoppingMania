@@ -1,0 +1,48 @@
+/*.custom-img {*/
+/*    border-radius: 30px;*/
+/*}*/
+.sidebar {
+    height: calc(260px * 2); /* 2 высоты карточки товара */
+    padding: 15px;
+    border-right: 1px solid #ddd;
+}
+.product-card {
+    height: 100%; /* Обеспечиваем, что карточка занимает всю высоту колонки */
+}
+.container-custom {
+    max-width: 1800px;
+}
+
+
+.custom-buttons{
+    color: #05386B;
+}
+
+body{
+    background: whitesmoke;
+}
+
+.custom-col{
+    border-radius: 40px;
+}
+
+
+.custom-card{
+    background: darkgrey;
+}
+.small-text {
+    font-size: 1rem;
+    padding: 0.5rem;
+    line-height: 0.7;
+}
+
+.card-body {
+    padding: 0.5rem;
+}
+
+.custom-card-text{
+    text-decoration: line-through;
+    color: #05386B;
+}
+
+

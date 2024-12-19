@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: customers-service-route
+          uri: http://localhost:8080
+          predicates:
+            - Host=api/v1/customers
+server:
+  port: 8086
+  forward-headers-strategy: framework

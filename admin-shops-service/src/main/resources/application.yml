@@ -1,0 +1,31 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: admin-shops-service
+
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/shoppingMania
+    password: Anya12102000
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/shoppingMania
+      database: shoppingMania
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true

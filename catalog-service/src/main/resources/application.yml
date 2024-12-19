@@ -1,0 +1,18 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: catalog-service
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/shoppingMania
+      database: shoppingMania
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
