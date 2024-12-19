@@ -1,8 +1,8 @@
 server:
-  port: 8085
+  port: 8091
 spring:
   application:
-    name: auth-service
+    name: admin-shops-service
 
   datasource:
     username: postgres
@@ -16,6 +16,12 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/shoppingMania
+      database: shoppingMania
+
 
 eureka:
   client:

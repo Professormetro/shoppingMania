@@ -3,7 +3,6 @@ package org.chernov.admin_shops_service.service;
 
 import lombok.RequiredArgsConstructor;
 import org.chernov.admin_shops_service.dto.CreateShopDto;
-import org.chernov.admin_shops_service.dto.SellerDto;
 import org.chernov.admin_shops_service.entity.AppUser;
 import org.chernov.admin_shops_service.entity.Role;
 import org.chernov.admin_shops_service.entity.Shop;
@@ -40,13 +39,15 @@ public class ShopService {
         return shop.orElseThrow(() -> new RuntimeException("Shop was not found!"));
     }
 
-    public Shop createNewShop(CreateShopDto createShopDto, SellerDto sellerDto, BindingResult bindingResult) {
+    public Shop createNewShop(CreateShopDto createShopDto, BindingResult bindingResult) {
 
-        Optional<AppUser> newSeller = userService.getUserByEmail(sellerDto.getEmail());
+        Optional<AppUser> newSeller = userService.getUserByEmail(createShopDto.getSellerEmail());
 
         if(newSeller.isEmpty()) {
             bindingResult.addError(new FieldError("sellerDto", "email", "Email is already in use"));
         }
+
+        AppUser seller = newSeller.get();
 
         String schemaName = createShopDto.getName().replaceAll("\\s+", "_").toLowerCase();
         String createSchemaSQL = "CREATE SCHEMA " + schemaName;
@@ -72,22 +73,22 @@ public class ShopService {
         Shop shop = Shop.builder()
                 .name(createShopDto.getName())
                 .logoImageUrl(createShopDto.getLogoImageUrl())
-                .owner(createShopDto.getOwner())
+                .owner(seller)
+                .productsInStock(0L)
+                .rating(0)
+                .productsOnSale(0L)
                 .schemaName(schemaName)
                 .createdAt(LocalDateTime.now())
                 .build();
 
-        setNewDataToSeller(newSeller, shop);
+        setNewDataToSeller(seller, shop);
 
         return shopRepository.save(shop);
     }
 
-    public void setNewDataToSeller(Optional<AppUser> seller, Shop shop) {
-
-        if(seller.isPresent()) {
-            seller.get().setRole(Role.SELLER);
-            seller.get().setShop(shop);
-        }
+    public void setNewDataToSeller(AppUser seller, Shop shop) {
+        seller.setRole(Role.SELLER);
+        seller.setShop(shop);
     }
 
 

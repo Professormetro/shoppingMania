@@ -4,15 +4,11 @@ package org.chernov.admin_shops_service.controller;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.chernov.admin_shops_service.dto.CreateShopDto;
-import org.chernov.admin_shops_service.dto.SellerDto;
-import org.chernov.admin_shops_service.entity.AppUser;
 import org.chernov.admin_shops_service.entity.Shop;
-import org.chernov.admin_shops_service.repository.ShopRepository;
 import org.chernov.admin_shops_service.service.ShopService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
@@ -35,29 +31,27 @@ public class ShopController {
         return "shopPage";
     }
 
-    @GetMapping("/createShop")
+    @GetMapping("/create-shop")
     public String showFormToCreateNewShop(Model model) {
         model.addAttribute("createShopDto", new CreateShopDto());
-        model.addAttribute("sellerDto", new SellerDto());
         model.addAttribute("success", false);
-        return "createNewShopForm";
+        return "createShop";
     }
 
 
-    @PostMapping("/createShop")
-    public String createNewShop(Model model, @ModelAttribute @Valid CreateShopDto createShopDto,
-                                @ModelAttribute @Valid SellerDto sellerDto, BindingResult bindingResult) {
-
-        Shop createdShop = shopService.createNewShop(createShopDto, sellerDto, bindingResult);
+    @PostMapping("/create-shop")
+    public String createNewShop(Model model, @ModelAttribute @Valid CreateShopDto createShopDto, BindingResult bindingResult) {
 
         if (bindingResult.hasErrors()) {
-            return "createNewShopForm";
+            return "createShop";
         }
+
+        Shop createdShop = shopService.createNewShop(createShopDto, bindingResult);
 
         model.addAttribute("createdShop", createdShop);
         model.addAttribute("success", true);
 
-        return "redirect:/shops/{shopId}";
+        return "redirect:/shops";
     }
 
 }
