@@ -3,10 +3,12 @@ package org.chernov.authservice.controller;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.chernov.authservice.dto.LoginDto;
 import org.chernov.authservice.dto.RegisterDto;
 import org.chernov.authservice.entity.AppUser;
 import org.chernov.authservice.repository.UserRepository;
 import org.chernov.authservice.service.AppUserService;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -23,11 +25,24 @@ public class AccountController {
     private final AppUserService appUserService;
 
 
-    @GetMapping
-    public String showHomePage(Model model) {
-        model.addAttribute("homePrint", "Welcome to the Home Page");
-        return "home";
+
+//    @GetMapping
+//    public String showHomePage(Model model) {
+//        model.addAttribute("homePrint", "Welcome to the Home Page");
+//        return "home";
+//    }
+
+    @GetMapping("/login")
+    public String showLoginPage(Model model){
+        model.addAttribute("loginDto", new LoginDto());
+        return "login";
     }
+
+    public String loginUser(Model model, @ModelAttribute LoginDto loginDto){
+        appUserService.authenticateUserAndCreateToken(loginDto);
+    }
+
+
 
 
     @GetMapping("/register")

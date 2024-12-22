@@ -6,17 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="efc6b373-4e72-4d1e-bdac-0e2ab275e94c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/controller/ShopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/AppUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/service/ShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/resources/templates/allShops.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/resources/templates/allShops.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/controller/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/controller/ShopController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/service/ShopService.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/service/ShopService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/target/classes/templates/allShops.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/target/classes/templates/allShops.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/entity/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/entity/AppUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/entity/AppUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/entity/AppUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/org/chernov/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/chernov/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/service/AppUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/service/AppUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/service/CustomUserDetailsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +184,7 @@
       <workItem from="1734615410645" duration="6885000" />
       <workItem from="1734622796792" duration="17072000" />
       <workItem from="1734801546359" duration="593000" />
-      <workItem from="1734864413474" duration="5535000" />
+      <workItem from="1734864413474" duration="11976000" />
     </task>
     <servers />
   </component>
