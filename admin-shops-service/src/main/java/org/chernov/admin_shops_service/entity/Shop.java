@@ -23,15 +23,14 @@ public class Shop {
     @Column(name = "shop_name")
     private String name;
 
-    @Column(name = "shop_logo")
+    @Column(name = "shop_logo", columnDefinition = "TEXT")
     private String logoImageUrl;
 
     @Column(name = "shop_rating")
     private int rating;
 
-    @OneToOne
-    @JoinColumn(name = "owner_id", unique = true)
-    private AppUser owner;
+    @Column(name = "user_owner_id")
+   private Long ownerId;
 
     @Column(name = "products_on_sale")
     private Long productsOnSale;

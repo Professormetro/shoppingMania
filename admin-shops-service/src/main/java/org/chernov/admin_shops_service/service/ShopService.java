@@ -7,6 +7,7 @@ import org.chernov.admin_shops_service.entity.AppUser;
 import org.chernov.admin_shops_service.entity.Role;
 import org.chernov.admin_shops_service.entity.Shop;
 import org.chernov.admin_shops_service.repository.ShopRepository;
+import org.chernov.admin_shops_service.repository.UserRepository;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.BindingResult;
@@ -23,8 +24,7 @@ public class ShopService {
     private final ShopRepository shopRepository;
     private final UserService userService;
     private final JdbcTemplate jdbcTemplate;
-
-
+    private final UserRepository userRepository;
 
 
     public List<Shop> getAllShops() {
@@ -73,7 +73,7 @@ public class ShopService {
         Shop shop = Shop.builder()
                 .name(createShopDto.getName())
                 .logoImageUrl(createShopDto.getLogoImageUrl())
-                .owner(seller)
+                .ownerId(seller.getId())
                 .productsInStock(0L)
                 .rating(0)
                 .productsOnSale(0L)
@@ -81,14 +81,14 @@ public class ShopService {
                 .createdAt(LocalDateTime.now())
                 .build();
 
-        setNewDataToSeller(seller, shop);
+        setNewDataToSeller(seller);
 
         return shopRepository.save(shop);
     }
 
-    public void setNewDataToSeller(AppUser seller, Shop shop) {
+    public void setNewDataToSeller(AppUser seller) {
         seller.setRole(Role.SELLER);
-        seller.setShop(shop);
+        userRepository.save(seller);
     }
 
 

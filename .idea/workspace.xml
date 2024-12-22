@@ -8,22 +8,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-shops-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/controller/ShopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/dto/CreateShopDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/dto/CreateShopDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/dto/SellerDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/Review.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/repository/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/repository/ReviewRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/AppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/Shop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/service/ShopService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/resources/templates/allShops.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/resources/templates/allShops.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/resources/templates/createNewShopForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/resources/templates/createShop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/dto/RegisterDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/dto/RegisterDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/entity/AppUser$AppUserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/entity/AppUser$AppUserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/controller/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/controller/ShopController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/service/ShopService.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/service/ShopService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-shops-service/target/classes/templates/allShops.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/target/classes/templates/allShops.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/entity/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/entity/AppUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/entity/AppUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/entity/AppUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/service/AppUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/service/AppUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/service/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/service/CustomUserDetailsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,37 +54,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.AdminShopsServiceApplication.executor": "Debug",
-    "Spring Boot.AuthServiceApplication.executor": "Debug",
-    "Spring Boot.EurekaServerApplication.executor": "Debug",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/nikit/portfolioProjects/shoppingMania/shop-service/pom.xml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.sourceCode.PostgreSQL, Greenplum, Redshift",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AdminShopsServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.AuthServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/nikit/portfolioProjects/shoppingMania/shop-service/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.PostgreSQL, Greenplum, Redshift&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -157,6 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ShopServiceApplication" />
+      <item itemvalue="Spring Boot.AdminShopsServiceApplication" />
+      <item itemvalue="Spring Boot.AuthServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AdminShopsServiceApplication" />
@@ -184,7 +183,9 @@
       <workItem from="1734615255611" duration="85000" />
       <workItem from="1734615369061" duration="34000" />
       <workItem from="1734615410645" duration="6885000" />
-      <workItem from="1734622796792" duration="16674000" />
+      <workItem from="1734622796792" duration="17072000" />
+      <workItem from="1734801546359" duration="593000" />
+      <workItem from="1734864413474" duration="5535000" />
     </task>
     <servers />
   </component>

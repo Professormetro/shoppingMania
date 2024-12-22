@@ -17,7 +17,7 @@ import java.time.LocalDateTime;
 public class AppUser {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
+    @Column(name = "user_id")
     private Long id;
 
     @Column(name = "username")
@@ -35,9 +35,6 @@ public class AppUser {
     @Enumerated(EnumType.STRING)
     @Column(name = "role")
     private Role role;
-
-    @OneToOne(mappedBy = "owner", cascade = CascadeType.ALL)
-    private Shop shop;
 
     @Column(name = "created_at")
     private LocalDateTime createdAt;

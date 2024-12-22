@@ -16,14 +16,7 @@ import java.time.LocalDateTime;
 @Builder
 public class AppUser {
     @Id
-    @SequenceGenerator(
-            name = "user_id_sequence",
-            sequenceName = "user_id_sequence"
-    )
-    @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "user_id_sequence"
-    )
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "user_id")
     private Long id;
 

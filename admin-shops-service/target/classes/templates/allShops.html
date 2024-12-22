@@ -50,12 +50,12 @@
     </thead>
     <tbody>
     <tr th:each="shop : ${shops}">
-      <td><img th:src="@{${shop.logoImageUrl}}" alt="Logo" style="width: 50px; height: auto;"></td>
+      <td><img th:src="${shop.logoImageUrl}" alt="Logo" style="width: 50px; height: auto;"></td>
       <td th:text="${shop.name}"></td>
       <td th:text="${shop.id}"></td>
       <td th:text="${shop.rating}"></td>
-      <td th:text="${shop.owner.username}"></td>
-      <td th:text="${#dates.format(shop.createdAt, 'dd.MM.yyyy')}"></td>
+      <td th:text="${shop.ownerId}"></td>
+      <td th:text="${#temporals.format(shop.createdAt, 'dd.MM.yyyy')}"></td>
     </tr>
     </tbody>
   </table>

@@ -51,7 +51,7 @@ public class ShopController {
         model.addAttribute("createdShop", createdShop);
         model.addAttribute("success", true);
 
-        return "redirect:/shops";
+        return "redirect:/api/shops";
     }
 
 }
