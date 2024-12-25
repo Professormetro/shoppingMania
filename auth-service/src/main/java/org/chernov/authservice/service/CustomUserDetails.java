@@ -30,26 +30,26 @@ public class CustomUserDetails implements UserDetails {
 
     @Override
     public String getUsername() {
-        return appUser.getPhone(); // Или username в зависимости от вашей логики
+        return appUser.getPhone();
     }
 
     @Override
     public boolean isAccountNonExpired() {
-        return true; // Логика проверки срока действия аккаунта
+        return true;
     }
 
     @Override
     public boolean isAccountNonLocked() {
-        return true; // Логика проверки блокировки аккаунта
+        return true;
     }
 
     @Override
     public boolean isCredentialsNonExpired() {
-        return true; // Логика проверки срока действия учетных данных
+        return true;
     }
 
     @Override
     public boolean isEnabled() {
-        return true; // Логика проверки активности аккаунта
+        return true;
     }
 }

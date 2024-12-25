@@ -50,7 +50,7 @@ public class JwtUtil {
         String roles = extractAllClaims(token).get("roles", String.class);
         return roles != null ?
                 Arrays.stream(roles.split(","))
-                        .map(Role::valueOf) // Преобразуем строку в перечисление Role
+                        .map(Role::valueOf)
                         .collect(Collectors.toSet()) :
                 Collections.emptySet();
     }

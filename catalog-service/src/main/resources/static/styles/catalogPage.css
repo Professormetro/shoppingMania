@@ -1,4 +1,15 @@
 
+.nav-link:hover {
+    color: #007bff; /* Измените цвет текста при наведении */
+    transform: scale(1.05); /* Немного увеличивает размер */
+    transition: transform 0.2s; /* Плавный переход */
+}
+
+
+.dropdown-toggle::after {
+    display: none; /* Скрыть стрелочку */
+}
+
 .sidebar {
     height: calc(260px * 2); /* 2 высоты карточки товара */
     padding: 15px;
