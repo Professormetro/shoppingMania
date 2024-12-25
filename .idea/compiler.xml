@@ -16,11 +16,13 @@
         <module name="customer-service" />
         <module name="catalog-service" />
         <module name="admin-shops-service" />
-        <module name="api-gateway" />
         <module name="shop-service" />
         <module name="eureka-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

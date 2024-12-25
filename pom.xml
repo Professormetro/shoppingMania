@@ -16,8 +16,7 @@
     <module>customer-service</module>
     <module>fraud-service</module>
     <module>eureka-server</module>
-      <module>api-gateway</module>
-      <module>catalog-service</module>
+    <module>catalog-service</module>
     <module>admin-shops-service</module>
   </modules>
 

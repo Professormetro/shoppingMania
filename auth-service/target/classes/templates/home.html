@@ -26,36 +26,39 @@
         </li>
       </ul>
 
-      <ul class="navbar-nav me-3" sec:authorize="isAuthenticated()">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">User</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/profile">Profile</a></li>
-            <li><a class="dropdown-item" href="/">Home</a></li>
-          </ul>
-        </li>
-      </ul>
+<!--      <ul class="navbar-nav me-3" sec:authorize="isAuthenticated()">-->
+<!--        <li class="nav-item dropdown">-->
+<!--          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">User</a>-->
+<!--          <ul class="dropdown-menu">-->
+<!--            <li><a class="dropdown-item" href="/profile">Profile</a></li>-->
+<!--            <li><a class="dropdown-item" href="/">Home</a></li>-->
+<!--          </ul>-->
+<!--        </li>-->
+<!--      </ul>-->
 
-      <form sec:authorize="isAuthenticated()" method="post" action="/logout">
-        <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>
-        <button type="submit" class="btn btn-danger">Log out</button>
-      </form>
+<!--      <form sec:authorize="isAuthenticated()" method="post" action="/logout">-->
+<!--&lt;!&ndash;        <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>&ndash;&gt;-->
+<!--        <button type="submit" class="btn btn-danger">Log out</button>-->
+<!--      </form>-->
 
 
 
-      <ul class="navbar-nav" sec:authorize="!isAuthenticated()">
-        <li class="nav-item">
-          <a href="/register" class="btn btn-outline-primary me-2">Sign up</a>
-        </li>
+<!--      <ul class="navbar-nav" sec:authorize="!isAuthenticated()">-->
+<!--        <li class="nav-item">-->
+<!--          <a href="/register" class="btn btn-outline-primary me-2">Sign up</a>-->
+<!--        </li>-->
 
-        <li class="nav-item">
-          <a href="/login" class="btn btn-outline-primary me-2">Log in</a>
-        </li>
+<!--        <li class="nav-item">-->
+<!--          <a href="/login" class="btn btn-outline-primary me-2">Log in</a>-->
+<!--        </li>-->
 
       </ul>
     </div>
   </div>
 </nav>
+
+<h1>Hi, there is your token</h1>
+<h1 th:text="${token}"></h1>
 
 
 </body>

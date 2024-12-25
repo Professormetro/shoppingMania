@@ -3,19 +3,43 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BeansEndpointTabSettings">
+    <option name="showContexts" value="false" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="efc6b373-4e72-4d1e-bdac-0e2ab275e94c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/org/chernov/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/chernov/apigateway/ApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/org/chernov/apigateway/ApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/org/chernov/apigateway/config/AuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/config/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/config/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/config/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/dto/LoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/dto/LoginDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/dto/RegisterDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/dto/RegisterDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/entity/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/entity/AppUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/service/AppUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/service/AppUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/service/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/config/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/config/SecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/controller/AccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/dto/LoginDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/dto/RegisterDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/entity/AppUser$AppUserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/entity/AppUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/service/AppUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/service/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,37 +77,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AdminShopsServiceApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.AuthServiceApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/nikit/portfolioProjects/shoppingMania/shop-service/pom.xml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.PostgreSQL, Greenplum, Redshift&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AuthServiceApplication.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.AdminShopsServiceApplication.executor": "Debug",
+    "Spring Boot.ApiGatewayApplication.executor": "Debug",
+    "Spring Boot.AuthServiceApplication.executor": "Debug",
+    "Spring Boot.EurekaServerApplication.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/nikit/portfolioProjects/shoppingMania/shop-service/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.sourceCode.PostgreSQL, Greenplum, Redshift",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -102,13 +131,26 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminShopsServiceApplication">
-    <configuration name="AdminShopsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="admin-shops-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.chernov.admin_shops_service.AdminShopsServiceApplication" />
+  <component name="RunManager" selected="Spring Boot.CatalogServiceApplication">
+    <configuration name="AuthServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.chernov.authservice.AuthServiceApplication" />
+      <module name="auth-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.chernov.admin_shops_service.*" />
+          <option name="PATTERN" value="org.chernov.authservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.chernov.apigateway.ApiGatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.chernov.apigateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,6 +164,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.chernov.authservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.chernov.catalogservice.CatalogServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.chernov.catalogservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,16 +205,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.AuthServiceApplication" />
       <item itemvalue="Spring Boot.ShopServiceApplication" />
-      <item itemvalue="Spring Boot.AdminShopsServiceApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.CatalogServiceApplication" />
       <item itemvalue="Spring Boot.AuthServiceApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.AdminShopsServiceApplication" />
         <item itemvalue="Spring Boot.AuthServiceApplication" />
+        <item itemvalue="Spring Boot.CatalogServiceApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.ApiGatewayApplication" />
+        <item itemvalue="Application.AuthServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -184,11 +243,24 @@
       <workItem from="1734615410645" duration="6885000" />
       <workItem from="1734622796792" duration="17072000" />
       <workItem from="1734801546359" duration="593000" />
-      <workItem from="1734864413474" duration="11976000" />
+      <workItem from="1734864413474" duration="22890000" />
+      <workItem from="1735050927894" duration="12044000" />
+      <workItem from="1735114773608" duration="13209000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
