@@ -9,6 +9,9 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/shoppingMania
       database: shoppingMania
+    redis:
+      host: redis
+      port: 6379
 
 eureka:
   client:

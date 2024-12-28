@@ -54,7 +54,7 @@
           </a>
         </li>
         <li class="nav-item bucket-icon"> <!-- ?????????, ??? ????? ???? ????? bucket-icon -->
-          <a class="nav-link text-dark custom-buttons" href="#" style="margin-right: 30px;">
+          <a class="nav-link text-dark custom-buttons" href="/api/bucket" style="margin-right: 30px;">
             <i class="bi bi-basket" style="font-size: 1.5rem;"></i>
             Bucket
           </a>
@@ -112,8 +112,14 @@
 
 
   function addToCart(productId) {
-    cartCount++;
-    animateFallingProduct();
+    fetch(`/api/cart/add/${productId}`, { method: 'POST' })
+            .then(response => {
+              if (response.ok) {
+                animateFallingProduct();
+              } else {
+                console.error('Failed to add to cart');
+              }
+            });
   }
 
   function buyNow(productId) {

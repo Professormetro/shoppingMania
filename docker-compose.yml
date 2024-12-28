@@ -1,4 +1,13 @@
 services:
+  redis:
+    container_name: redis
+    image: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - redis_network
+    restart: unless-stopped
+
 
   mongodb:
     container_name: mongodb
@@ -58,12 +67,18 @@ services:
       - postgres
     restart: unless-stopped
 
+
+
 networks:
   mongo_network:
     driver: bridge
 
   postgres:
     driver: bridge
+
+  redis_network:
+    driver: bridge
+
 
 volumes:
   postgres:

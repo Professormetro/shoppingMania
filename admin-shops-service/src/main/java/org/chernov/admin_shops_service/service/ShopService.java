@@ -16,6 +16,7 @@ import org.springframework.validation.FieldError;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 
 @Service
 @RequiredArgsConstructor
@@ -87,7 +88,7 @@ public class ShopService {
     }
 
     public void setNewDataToSeller(AppUser seller) {
-        seller.setRole(Role.SELLER);
+        seller.setRoles(Set.of(Role.SELLER));
         userRepository.save(seller);
     }
 
