@@ -24,6 +24,9 @@ public class BucketController {
         List<Long> bucketItemsIds = bucketService.getBucketItems();
         List<Product> bucketItems;
 
+
+
+
         for (Long bucketItemId : bucketItemsIds) {
             bucketItems.add(productService.getProductById(bucketItemId));
         }

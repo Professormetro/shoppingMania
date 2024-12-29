@@ -9,26 +9,12 @@
   <component name="ChangeListManager">
     <list default="true" id="efc6b373-4e72-4d1e-bdac-0e2ab275e94c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/AppUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/service/ShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/entity/AppUser$AppUserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/entity/AppUser$AppUserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/entity/AppUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/entity/AppUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/entity/Shop$ShopBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/entity/Shop$ShopBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/entity/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/entity/Shop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/service/ShopService.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/target/classes/org/chernov/admin_shops_service/service/ShopService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/config/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/config/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/chernov/authservice/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/config/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/org/chernov/authservice/config/JwtUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/org/chernov/catalogservice/controller/BucketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/org/chernov/catalogservice/controller/BucketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/templates/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/target/classes/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/target/classes/templates/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/org/chernov/catalogservice/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/org/chernov/catalogservice/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/templates/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/templates/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/src/main/java/org/chernov/shopservice/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/src/main/java/org/chernov/shopservice/controller/ShopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/src/main/resources/templates/shopMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/src/main/resources/templates/shopMain.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +26,7 @@
       <list>
         <option value="Interface" />
         <option value="HTML File" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -191,9 +178,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.CatalogServiceApplication" />
         <item itemvalue="Spring Boot.AuthServiceApplication" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.AdminShopsServiceApplication" />
       </list>
     </recent_temporary>
@@ -226,7 +213,8 @@
       <workItem from="1735294891744" duration="569000" />
       <workItem from="1735295872909" duration="4153000" />
       <workItem from="1735383744106" duration="5437000" />
-      <workItem from="1735401110843" duration="5201000" />
+      <workItem from="1735401110843" duration="8262000" />
+      <workItem from="1735475284051" duration="7790000" />
     </task>
     <servers />
   </component>
