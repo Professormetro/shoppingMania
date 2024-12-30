@@ -22,7 +22,6 @@ public class JwtConfig {
         this.secretKey = dotenv.get("SECRET_KEY");
     }
 
-
     public Set<Role> extractRolesFromToken(String token) {
         Claims claims = Jwts.parser()
                 .setSigningKey(secretKey)
@@ -36,5 +35,4 @@ public class JwtConfig {
                         .collect(Collectors.toSet()) :
                 Collections.emptySet();
     }
-
 }

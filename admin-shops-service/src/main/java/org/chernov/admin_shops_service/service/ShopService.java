@@ -55,6 +55,8 @@ public class ShopService {
 
         jdbcTemplate.execute(createSchemaSQL);
 
+        //TODO поменять колонки таблицы Products, сделать связь с Reviews и Features
+
         String createProductTableSQL = "CREATE TABLE " + schemaName + ".products (" +
                 "id SERIAL PRIMARY KEY," +
                 "article BIGINT NOT NULL UNIQUE," +
@@ -91,10 +93,4 @@ public class ShopService {
         seller.setRoles(Set.of(Role.SELLER));
         userRepository.save(seller);
     }
-
-
-
-
-
-
 }

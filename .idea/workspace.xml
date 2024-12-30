@@ -8,13 +8,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efc6b373-4e72-4d1e-bdac-0e2ab275e94c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/org/chernov/catalogservice/config/JwtConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/org/chernov/catalogservice/config/RestTemplateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/org/chernov/catalogservice/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/templates/bucket.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-service/src/main/java/org/chernov/shopservice/config/JwtConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/entity/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-shops-service/src/main/java/org/chernov/admin_shops_service/service/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/org/chernov/catalogservice/config/JwtConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/org/chernov/catalogservice/config/JwtConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/org/chernov/catalogservice/controller/BucketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/org/chernov/catalogservice/controller/BucketController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/org/chernov/catalogservice/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/org/chernov/catalogservice/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/templates/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/templates/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/org/chernov/catalogservice/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/org/chernov/catalogservice/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/target/classes/templates/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/target/classes/templates/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/target/classes/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/target/classes/templates/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-service/src/main/java/org/chernov/shopservice/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/src/main/java/org/chernov/shopservice/controller/ShopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-service/src/main/resources/templates/shopMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/src/main/resources/templates/shopMain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/src/main/java/org/chernov/shopservice/dto/CreateProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/src/main/java/org/chernov/shopservice/dto/CreateProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/src/main/java/org/chernov/shopservice/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/src/main/java/org/chernov/shopservice/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/src/main/java/org/chernov/shopservice/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-service/src/main/java/org/chernov/shopservice/service/ShopService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,50 +69,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AuthServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AdminShopsServiceApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.AuthServiceApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.CatalogServiceApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.ShopServiceApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/nikit/portfolioProjects/shoppingMania/shop-service/pom.xml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.PostgreSQL, Greenplum, Redshift&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AuthServiceApplication.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.AdminShopsServiceApplication.executor": "Debug",
+    "Spring Boot.ApiGatewayApplication.executor": "Debug",
+    "Spring Boot.AuthServiceApplication.executor": "Debug",
+    "Spring Boot.CatalogServiceApplication.executor": "Debug",
+    "Spring Boot.EurekaServerApplication.executor": "Debug",
+    "Spring Boot.ShopServiceApplication.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/chern/IdeaProjects/shoppingMania/shop-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.sourceCode.PostgreSQL, Greenplum, Redshift",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.chernov.authservice.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chern\IdeaProjects\shoppingMania\shop-service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -178,9 +198,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.CatalogServiceApplication" />
         <item itemvalue="Spring Boot.AuthServiceApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.AdminShopsServiceApplication" />
       </list>
     </recent_temporary>
@@ -188,8 +208,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
       </set>
     </attachedChunks>
   </component>
@@ -215,6 +235,7 @@
       <workItem from="1735383744106" duration="5437000" />
       <workItem from="1735401110843" duration="8262000" />
       <workItem from="1735475284051" duration="7790000" />
+      <workItem from="1735572496002" duration="6600000" />
     </task>
     <servers />
   </component>

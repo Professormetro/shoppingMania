@@ -41,10 +41,6 @@ public class Shop {
     @Column(name = "schema_name")
     private String schemaName;
 
-    @Column(name = "shop_id")
-    private Long shopId;
-
-
     @Column(name = "created_at")
     private LocalDateTime createdAt;
 

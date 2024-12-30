@@ -45,7 +45,6 @@ public class ProductController {
 
         model.addAttribute("products", allProducts);
         return "catalog";
-
     }
 
     @GetMapping("/{productId}")
